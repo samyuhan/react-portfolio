@@ -1,0 +1,13 @@
+.navbar {
+    height: 60px;
+  }
+  
+  .navbar a {
+    color: rgb(98, 98, 98);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin: 10px;
+    line-height: 3;
+  }
+  
