@@ -1,2 +1,12 @@
-.card {
+.card-overlay {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.link:hover {
+    color: rgb(98, 98, 98);
 }
