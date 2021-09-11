@@ -17,5 +17,12 @@ This application was created to showcase my portfolio using React. There are 4 s
 This app was built using HTML/CSS, Javascript, and React!
 
 ## Installation
-To install this generator, please download this repo onto your local computer. Then, make sure to go into `cd app`:
+To install this generator, please download this repo onto your local computer. Then, make sure to go into `cd app` in Terminal:
 - Install npm packages with `npm i`
+
+## Usage
+To use this application: 
+- In Terminal, go into `cd app` and type `npm start`
+- It will automatically render in your browser at `http://localhost:3000`
+
+![Demo Walkthrough](./app/public/demo.gif)
