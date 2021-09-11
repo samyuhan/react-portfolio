@@ -1,10 +1,19 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const styles = {
+    formlayout: {
+      background: "aliceblue",
+      paddingTop: "50px",
+      paddingRight: "200px",
+      paddingLeft: "200px"
+      
+    }
+};
 
 function Contact() {
     return (
-        <div>
+        <div style={styles.formlayout}>
             <form class="row g-3">
                 <div class="col-md-6">
                     <label for="inputName" class="form-label">Name</label>
