@@ -60,3 +60,10 @@ Each Navbar tab is a list.
     </a>
     </li>
 ```
+
+## Contribution
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
+
+## Author
+- Github: [samyuhan](https://github.com/samyuhan)
+- Email: syuhan@berkeley.edu
