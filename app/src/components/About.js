@@ -9,7 +9,7 @@ const styles = {
     paddingLeft: "200px"
     
   },
-  h1: {
+  h2: {
     fontSize: "35px",
     color: "rgb(98, 98, 98)"
   },
@@ -27,7 +27,7 @@ const styles = {
 function Header() {
   return (
     <div style={styles.abt} className="about">
-      <h1 style={styles.h1}>About Me</h1>
+      <h2 style={styles.h2}>About Me</h2>
       <img src="profile.png" alt="Profile picture" style={styles.pic} />
       <p style ={styles.para}>
         Hello World, my name is Samantha! I just graduated from UC Berkeley with a Bachelor's degree in Data Science. I am interested in pursuing UX/UI Design or maybe website development, which is why I'm taking this bootcamp. I hope that I can merge my creative and technical skills to build beautiful functioning websites.
