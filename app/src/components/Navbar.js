@@ -10,14 +10,49 @@ const styles = {
   },
 };
 
-function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav style={styles.nav} className="navbar">
-      <a href="/">About Me</a>
-      <a href="/portfolio">Portfolio</a>
-      <a href="/contact">Contact</a>
-      <a href="/resume">Resume</a>
-    </nav>
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#"
+          onClick={() => handlePageChange('About Me')}
+          className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
+        >
+          About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+    </ul>
   );
 }
 
