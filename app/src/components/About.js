@@ -5,8 +5,8 @@ const styles = {
   abt: {
     background: "aliceblue",
     paddingTop: "50px",
-    paddingRight: "200px",
-    paddingLeft: "200px",
+    paddingRight: "100px",
+    paddingLeft: "100px",
   },
   h2: {
     fontSize: "35px",
