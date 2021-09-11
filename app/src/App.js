@@ -10,7 +10,7 @@ function App() {
     <div>
       <Navbar />
       <Header />
-      <Contact />
+      <About />
       <Footer />
     </div>
   );

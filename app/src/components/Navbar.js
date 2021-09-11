@@ -5,7 +5,8 @@ const styles = {
   nav: {
     background: "aliceblue",
     display: "flex",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
+    paddingRight: "30px"
   },
 };
 
