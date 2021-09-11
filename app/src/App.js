@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div>
       <Navbar />
       <Header />
-      <Contact />
+      <Portfolio />
       <Footer />
     </div>
   );
