@@ -2,21 +2,22 @@ import React from 'react';
 import '../styles/Header.css';
 
 const styles = {
-  heading: {
+  footing: {
     background: "aliceblue",
-    
+    padding: "50px",
+    textAlign: "center"
   },
-  h1: {
-    fontSize: "50px"
+  i: {
+    fontSize: "36px"
   }
 };
 
-function Header() {
+function Footer() {
   return (
-    <header style={styles.heading} className="header">
-      <h1 style={styles.h1}>Samantha Yuhan</h1>
-    </header>
+    <footer style={styles.footing} className="footer">
+      <a href="https://github.com/samyuhan"><button class="footerbtn"><i class="fa fa-github" style={styles.i}></i></button></a>
+    </footer>
   );
 }
 
-export default Header;
+export default Footer;
