@@ -16,12 +16,22 @@ const styles = {
     },
     workImg: {
         width: "500px",
+    },
+    h2: {
+        fontSize: "35px",
+        color: "rgb(98, 98, 98)",
+        background: "aliceblue",
+        margin: "0px",
+        paddingBottom: "10px",
+        textAlign: "center"
     }
 };
 
 function Portfolio() {
     return (
-        <div class="col d-flex justify-content-center" style={styles.workContainer}>
+        <div>
+            <h2 style={styles.h2}>Portfolio</h2>
+            <div class="col d-flex justify-content-center" style={styles.workContainer}>
             <div class="card" style={styles.workCard}>
                 <img class="card-img" src="tama.jpg" alt="Card image"/>
                 <div class="card-overlay">
@@ -71,6 +81,8 @@ function Portfolio() {
                 </div>
             </div>
         </div>
+        </div>
+        
     );
 }
 
