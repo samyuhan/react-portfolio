@@ -26,3 +26,37 @@ To use this application:
 - It will automatically render in your browser at `http://localhost:3000`
 
 ![Demo Walkthrough](./app/public/demo.gif)
+Deployed link:
+
+## Code
+React has useState that I used to help navigate through the Navbar.
+```
+const [currentPage, setCurrentPage] = useState('About Me');
+
+const renderPage = () => {
+    if (currentPage === 'About Me') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+};
+```
+Each Navbar tab is a list.
+```
+<li className="nav-item">
+    <a
+        href="#"
+        onClick={() => handlePageChange('About Me')}
+        className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
+    >
+        About Me
+    </a>
+    </li>
+```
