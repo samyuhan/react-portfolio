@@ -4,9 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const styles = {
     formlayout: {
         background: "aliceblue",
-        paddingTop: "75px",
-        paddingRight: "200px",
-        paddingLeft: "200px"
+        padding: "10px"
     },
     h2: {
         fontSize: "35px",
@@ -17,7 +15,7 @@ const styles = {
 
 function Contact() {
     return (
-        <div style={styles.formlayout}>
+        <div className="cont" style={styles.formlayout}>
             <h2 style={styles.h2}>Contact Me</h2>
             <form class="row g-3">
                 <div class="col-md-6">
